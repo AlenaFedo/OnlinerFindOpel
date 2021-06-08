@@ -33,7 +33,7 @@ public class MainClass {
 
         WebElement cost = driver.findElement(By.xpath("//input[@placeholder=\"до\"]"));
         cost.click();
-        cost.sendKeys("15000");
+        cost.sendKeys("50000");
 
         JavascriptExecutor jse = (JavascriptExecutor)driver;
         jse.executeScript("scroll(0, 250);");
